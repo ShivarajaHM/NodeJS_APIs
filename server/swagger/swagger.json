@@ -1,0 +1,65 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Project CRUD",
+        "description": "Project Application API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:8000",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "Application APIs",
+            "description": "API for users in the system"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": 
+        {
+            "/ping": {
+                "get": {
+                    "tags": [
+                        "Health Check"
+                    ],
+                    "summary": "Test",
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                                "$ref": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "/test": {
+                "get": {
+                    "tags": [
+                        "Test"
+                    ],
+                    "summary": "Test",
+                    "responses": {
+                        "200": {
+                            "description": "OK",
+                            "schema": {
+                                "$ref": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+   
+}
