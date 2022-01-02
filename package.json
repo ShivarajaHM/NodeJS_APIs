@@ -1,0 +1,29 @@
+{
+  "name": "NodeJS_APIs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivarajaHM/NodeJS_APIs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivarajaHM/NodeJS_APIs/issues"
+  },
+  "homepage": "https://github.com/ShivarajaHM/NodeJS_APIs#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^3.0.2"
+  }
+}
